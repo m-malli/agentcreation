@@ -5,7 +5,7 @@ description: Plan changes across the codebase and produce a multi-file implement
 tools: ['search', 'read']
 handoffs:
   - label: "Implement this plan"
-    agent: developer
+    agent: Developer
     prompt: |
       Implement the plan you just produced. Work in small commits:
       1) create/modify files as planned

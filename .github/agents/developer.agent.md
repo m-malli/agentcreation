@@ -4,7 +4,7 @@ description: Implement changes safely, follow repo conventions, and keep diffs f
 tools: ['search', 'read', 'edit']
 handoffs:
   - label: "Run QA validation"
-    agent: qa
+    agent: QA
     prompt: |
       Validate the implementation:
       - add/adjust tests as needed
